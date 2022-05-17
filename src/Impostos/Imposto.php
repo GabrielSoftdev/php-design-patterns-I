@@ -9,11 +9,11 @@ enum Imposto
     case ISS;
     case ICMS;
 
-    public function valorImpostoCalculado(Orcamento $orcamento): float
+    public function porcentual(): float
     {
         return match ($this) {
-            Imposto::ISS => $orcamento->valor * 0.01,
-            Imposto::ICMS => $orcamento->valor * 0.06,
+            Imposto::ISS => 0.01,
+            Imposto::ICMS =>  0.06,
         };
     }
 }
