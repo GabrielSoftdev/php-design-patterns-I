@@ -1,8 +1,8 @@
 <?php
 
-namespace Alura\DesignPattern\Classes\Descontos;
+namespace Alura\Classes\Descontos;
 
-use Alura\DesignPattern\Classes\Orcamento;
+use Alura\Classes\Orcamento;
 
 class SemDeDesconto extends Desconto
 {

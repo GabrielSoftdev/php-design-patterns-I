@@ -1,7 +1,8 @@
 {
   "autoload": {
-      "psr-4": {
-          "Alura\\DesignPattern\\": "src/"
-      }
+    "psr-4": {
+      "Alura\\App\\": "src/",
+      "Alura\\Classes\\": "src/classes/"
+    }
   }
 }

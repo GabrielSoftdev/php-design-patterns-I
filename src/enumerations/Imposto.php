@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\DesignPattern\Enumenations;
+namespace Alura\App\Enumenations;
 
 enum Imposto
 {

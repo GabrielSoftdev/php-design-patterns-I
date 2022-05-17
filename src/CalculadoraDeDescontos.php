@@ -1,11 +1,11 @@
 <?php
 
-namespace Alura\DesignPattern;
+namespace Alura\App;
 
-use Alura\DesignPattern\Classes\Descontos\DescontoMaisDeCincoItens;
-use Alura\DesignPattern\Classes\Descontos\DescontoPorMaisQuinhentosGastos;
-use Alura\DesignPattern\Classes\Descontos\SemDeDesconto;
-use Alura\DesignPattern\Classes\Orcamento;
+use Alura\Classes\Descontos\DescontoMaisDeCincoItens;
+use Alura\Classes\Descontos\DescontoPorMaisQuinhentosGastos;
+use Alura\Classes\Descontos\SemDeDesconto;
+use Alura\Classes\Orcamento;
 
 class CalculadoraDeDescontos
 {

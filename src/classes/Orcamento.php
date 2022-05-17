@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\DesignPattern\Classes;
+namespace Alura\Classes;
 
 class Orcamento
 {
