@@ -2,8 +2,6 @@
 
 namespace Alura\DesignPattern\Impostos;
 
-use Alura\DesignPattern\Orcamento;
-
 enum Imposto
 {
     case ISS;
