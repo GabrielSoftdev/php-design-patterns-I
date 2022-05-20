@@ -1,6 +1,6 @@
 <?php
 
-use Alura\App\CalculadoraDeDescontos;
+use Alura\Classes\CalculadoraDeDescontos;
 use Alura\Classes\Orcamento;
 
 require 'vendor/autoload.php';
