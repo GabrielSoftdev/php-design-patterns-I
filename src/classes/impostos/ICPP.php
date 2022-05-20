@@ -7,7 +7,7 @@ use Alura\Classes\Orcamento;
 
 class ICPP extends ImpostoCom2Aliquotas
 {
-    protected static function deveAplicarTaxaMaxima(Orcamento $orcamento): bool
+    public static function deveAplicarTaxaMaxima(Orcamento $orcamento): bool
     {
         return $orcamento->valor > 500;
     }

@@ -2,11 +2,7 @@
 
 namespace Alura\App\Enumenations;
 
-use Alura\Classes\Impostos\ICMS;
-use Alura\Classes\Impostos\ICPP;
-use Alura\Classes\Impostos\IKCV;
-use Alura\Classes\Impostos\Imposto as Impostos;
-use Alura\Classes\Impostos\ISS;
+use Alura\Classes\Impostos\{ISS,ICMS,ICPP,IKCV};
 use Alura\Classes\Orcamento;
 
 /**

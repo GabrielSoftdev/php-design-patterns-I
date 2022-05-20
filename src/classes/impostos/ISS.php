@@ -2,6 +2,7 @@
 
 namespace Alura\Classes\Impostos;
 
+use Alura\Classes\Imposto;
 use Alura\Classes\Orcamento;
 
 class ISS extends Imposto

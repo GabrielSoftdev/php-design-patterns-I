@@ -4,7 +4,7 @@ namespace Alura\Classes;
 
 abstract class ImpostoCom2Aliquotas implements Imposto
 {
-    protected static function calcular(Orcamento $orcamento): float
+    public static function calcular(Orcamento $orcamento): float
     {
         if (self::deveAplicarTaxaMaxima($orcamento))
             return self::calculaTaxaMaxima($orcamento);
