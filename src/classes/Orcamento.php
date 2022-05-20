@@ -10,8 +10,10 @@ class Orcamento
     public float $valor;
     public EstadoOrcamento $estadoAtual;
 
-    public function __construct()
+    public function __construct(float $valor, int $quantidadeItens)
     {
+        $this->valor = $valor;
+        $this->quantidadeItens = $quantidadeItens;
         $this->estadoAtual = new EmAprovacao();
     }
 
